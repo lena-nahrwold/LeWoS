@@ -64,7 +64,7 @@ di-wang@foxmail.com
 
 
 # Docker
-Compile for Linux with MATLAB compiler:
+Compile for Linux with MATLAB R2024a compiler toolbox:
 ```
 mcc -m run_lewos_cli.m -a src -o LeWoSCLI
 ```
@@ -76,6 +76,6 @@ docker build -t lewos-cli .
 
 Then to run lewos for semantic segmentation use:
 ```
-docker run --rm -v /path/to/data:/data -v /path/to/output:/output lewos-cli /data /output
+docker run --rm -v /path/to/data:/data -v /path/to/output:/output lewos-cli
 
 ```
