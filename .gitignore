@@ -1,0 +1,8 @@
+/data/*
+run_LeWoSCLI.sh
+LeWoSCLI
+readme.txt
+mccExcludedFiles.log
+requiredMCRProducts.txt
+unresolvedSymbols.txt
+includedSupportPackages.txt
